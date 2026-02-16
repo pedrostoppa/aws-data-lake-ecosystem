@@ -1,4 +1,4 @@
-> # Arquitetura do Projeto
+ # Arquitetura do Projeto
 
 Este projeto utiliza uma arquitetura de Data Lake baseada em serviços nativos da AWS, priorizando simplicidade, baixo acoplamento e escalabilidade.
 
@@ -6,7 +6,7 @@ A arquitetura foi pensada para permitir ingestão de dados de diferentes fontes,
 
 ---
 
-> ## 🧩 Visão Geral da Arquitetura
+ ## 🧩 Visão Geral da Arquitetura
 
 Fluxo lógico do dado:
 
@@ -18,7 +18,7 @@ Landing (S3)
 
 ---
 
-> ## 🗂️ Componentes Principais
+ ## 🗂️ Componentes Principais
 
 ### Amazon S3
 Responsável pelo armazenamento de dados em todas as camadas do Data Lake.
@@ -34,7 +34,7 @@ Responsável pela orquestração dos pipelines de dados (ingestão e processamen
 
 ---
 
-> ## 🧠 Princípios Arquiteturais
+ ## 🧠 Princípios Arquiteturais
 
 - Separação clara de responsabilidades por camada
 - Dados imutáveis nas camadas iniciais

@@ -1,10 +1,10 @@
-> # Decisões Arquiteturais
+ # Decisões Arquiteturais
 
 Este documento registra as principais decisões tomadas ao longo do projeto, com seus respectivos motivos.
 
 ---
 
-> ## 📌 Criação manual do Data Lake
+ ## 📌 Criação manual do Data Lake
 
 Decisão:
 - Criar o Data Lake inicialmente via Console AWS
@@ -14,7 +14,7 @@ Motivo:
 
 ---
 
-> ## 📌 Separação entre Landing e Bronze
+ ## 📌 Separação entre Landing e Bronze
 
 Decisão:
 - Manter camada de Landing separada do medalhão
@@ -26,7 +26,7 @@ Motivo:
 
 ---
 
-> ## 📌 Uso de GitHub Projects
+ ## 📌 Uso de GitHub Projects
 
 Decisão:
 - Utilizar GitHub Projects (Kanban) para organização do trabalho

@@ -1,10 +1,10 @@
-> # Camadas do Data Lake
+ # Camadas do Data Lake
 
 Este projeto utiliza o padrão de Medallion Architecture, separando os dados em camadas com responsabilidades bem definidas.
 
 ---
 
-> ## 🟤 Landing (Zona de Ingestão)
+ ## 🟤 Landing (Zona de Ingestão)
 
 - Dados brutos, conforme recebidos da fonte
 - Nenhuma transformação aplicada
@@ -13,7 +13,7 @@ Este projeto utiliza o padrão de Medallion Architecture, separando os dados em 
 
 ---
 
-> ## 🥉 Bronze
+ ## 🥉 Bronze
 
 - Dados estruturados tecnicamente
 - Conversão para formato colunar (Parquet)
@@ -22,7 +22,7 @@ Este projeto utiliza o padrão de Medallion Architecture, separando os dados em 
 
 ---
 
-> ## 🥈 Silver
+ ## 🥈 Silver
 
 - Dados limpos e padronizados
 - Aplicação de regras de negócio
@@ -31,7 +31,7 @@ Este projeto utiliza o padrão de Medallion Architecture, separando os dados em 
 
 ---
 
-> ## 🥇 Gold
+ ## 🥇 Gold
 
 - Dados prontos para consumo
 - Modelagem analítica (Star Schema)
